@@ -1,0 +1,38 @@
+.complete-task-overlay {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.complete-task-modal {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  width: 300px;
+}
+
+.complete-task-modal .modal-body {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.complete-task-modal .modal-action {
+  text-align: right;
+}
+
+.complete-task-modal .modal-action button {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+  .complete-task-modal {
+    width: 280px;
+  }
+}

@@ -1,0 +1,11 @@
+.choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+.choose > * {
+  margin: 0 5px;
+}

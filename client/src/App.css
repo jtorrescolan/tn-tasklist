@@ -1,0 +1,12 @@
+.loader-container {
+  display: block;
+  width: 100%;
+}
+
+.loader-container .loader {
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}

@@ -1,0 +1,35 @@
+.tasks {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.task {
+  padding: 10px;
+  width: 220px;
+  border-radius: 5px;
+  background-color: white;
+  margin: 10px;
+  border: 1px solid gray;
+  cursor: pointer;
+}
+
+.task-title,
+.task-id {
+  display: block;
+  font-size: 14px;
+  color: #333;
+}
+
+.task-id {
+  text-align: right;
+}
+
+@media screen and (max-width: 640px) {
+  .tasks {
+    height: 76px;
+  }
+  .task {
+    position: absolute;
+  }
+}
